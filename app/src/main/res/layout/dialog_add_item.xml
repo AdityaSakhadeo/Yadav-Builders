@@ -1,0 +1,20 @@
+<!-- res/layout/dialog_add_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/dialog_numer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Site"/>
+
+    <EditText
+        android:id="@+id/dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name of Site"/>
+
+</LinearLayout>

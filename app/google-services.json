@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99382947616",
+    "project_id": "akashcons-a6939",
+    "storage_bucket": "akashcons-a6939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99382947616:android:09c6b1b4192c0524a1f145",
+        "android_client_info": {
+          "package_name": "com.example.yybuilders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99382947616-23q30uv9q1cn4nnecc32lp7ka1ihin7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyYKb0vC8-6yXLF6hOeo5VrKcsMe8wuJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99382947616-23q30uv9q1cn4nnecc32lp7ka1ihin7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

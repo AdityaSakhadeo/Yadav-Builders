@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    tools:context=".work_details">
+
+
+    <ScrollView
+        android:layout_width="414dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/work_description"
+                android:layout_width="414dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:gravity="center|top"
+                android:hint="Work Description Here"
+                android:inputType="textMultiLine"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/expense_normal"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:hint="Enter Cost"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:ems="10"
+                android:hint="Enter Quantity(Kg)"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/add_material"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:hint="Enter Additional Material"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/add_cost"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:hint="Additional Material Cost"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/add_quan"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:ems="10"
+                android:hint="Enter Quantity(Kg)"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Description"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <Button
+        android:id="@+id/site_button2"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_round"
+        android:text="Update Information"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/top_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Site Details"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <DatePicker
+        android:id="@+id/datePicker2"
+        android:layout_width="283dp"
+        android:layout_height="193dp"
+        android:layout_gravity="center"
+        android:headerBackground="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
